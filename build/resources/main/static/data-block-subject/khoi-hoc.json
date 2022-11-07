@@ -1,0 +1,120 @@
+{
+    "00001": {
+        "name": "A00",
+        "name_with_type": "Toán, Vật lý, Hóa học",
+        "code": "00001",
+        "parent_code": "001"
+    },
+    "00002": {
+        "name": "A01",
+        "name_with_type": "Toán, Vật lý, Tiếng Anh",
+        "code": "00002",
+        "parent_code": "001"
+    },
+    "00003": {
+        "name": "A02",
+        "name_with_type": "Toán, Vật lí , Sinh học",
+        "code": "00003",
+        "parent_code": "001"
+    },
+    "00004": {
+        "name": "A03",
+        "name_with_type": "Toán, Vật lý, Lịch sử",
+        "code": "00004",
+        "parent_code": "001"
+    },
+    "00005": {
+        "name": "A04",
+        "name_with_type": "Toán, Vật lý, Địa lí",
+        "code": "00005",
+        "parent_code": "001"
+    },
+    "00006": {
+        "name": "A05",
+        "name_with_type": "Toán, Hóa học, Lịch sử",
+        "code": "00006",
+        "parent_code": "001"
+    },
+    "00007": {
+        "name": "A06",
+        "name_with_type": "Toán, Hóa học, Địa lí",
+        "code": "00007",
+        "parent_code": "001"
+    },
+    "00008": {
+        "name": "A07",
+        "name_with_type": "Toán, Lịch sử, Địa lí",
+        "code": "00008",
+        "parent_code": "001"
+    },
+    "00009": {
+        "name": "A08",
+        "name_with_type": "Toán, Lịch sử, Giáo dục công dân",
+        "code": "00009",
+        "parent_code": "001"
+    }
+    ,
+    "00010": {
+        "name": "A09",
+        "name_with_type": "Toán, Địa lí, Giáo dục công dân",
+        "code": "00010",
+        "parent_code": "001"
+    }
+    ,
+    "00011": {
+        "name": "A10",
+        "name_with_type": "Toán, Vật lý, Giáo dục công dân",
+        "code": "00011",
+        "parent_code": "001"
+    }
+    ,
+    "00012": {
+        "name": "A11",
+        "name_with_type": "Toán, Hóa học, Giáo dục công dân",
+        "code": "00012",
+        "parent_code": "001"
+    }
+    ,
+    "00013": {
+        "name": "A12",
+        "name_with_type": "Toán, Khoa học tự nhiên, Khoa học xã hội",
+        "code": "00013",
+        "parent_code": "001"
+    },
+   
+    "00015": {
+        "name": "A14",
+        "name_with_type": "Toán, Khoa học tự nhiên, Địa lí",
+        "code": "00015",
+        "parent_code": "001"
+    },
+    "00016": {
+        "name": "A15",
+        "name_with_type": "Toán, Khoa học tự nhiên, Giáo dục công dân",
+        "code": "00016",
+        "parent_code": "001"
+    }
+    ,
+    "00017": {
+        "name": "A16",
+        "name_with_type": "Toán, Khoa học tự nhiên, Văn",
+        "code": "00017",
+        "parent_code": "001"
+    }
+    ,
+    "00018": {
+        "name": "A17",
+        "name_with_type": "Toán, Khoa học xã hội, Vật lý",
+        "code": "00018",
+        "parent_code": "001"
+    }
+    ,
+    "00019": {
+        "name": "A18",
+        "name_with_type": "Toán, Khoa học xã hội, Hóa học",
+        "code": "00019",
+        "parent_code": "001"
+    }
+    
+    
+}

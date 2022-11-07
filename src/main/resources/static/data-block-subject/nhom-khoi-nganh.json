@@ -1,0 +1,99 @@
+{
+    "001": {
+        "name": "Tổ hợp xét tuyển khối A",
+     
+        "name_with_type": "Tổ hợp xét tuyển khối A",
+        "path_with_type": "Tổ hợp xét tuyển khối A,Nhóm các khối thi truyền thống",
+        "code": "001",
+        "parent_code": "01"
+    }, 
+    "002": {
+        "name": "Tổ hợp xét tuyển khối B",
+     
+        "name_with_type": "Tổ hợp xét tuyển khối B",
+        "path_with_type": "Tổ hợp xét tuyển khối B,Nhóm các khối thi truyền thống",
+        "code": "002",
+        "parent_code": "01"
+    },
+    "003": {
+        "name": "Tổ hợp xét tuyển khối C",
+     
+        "name_with_type": "Tổ hợp xét tuyển khối C",
+        "path_with_type": "Tổ hợp xét tuyển khối C,Nhóm các khối thi truyền thống",
+        "code": "003",
+        "parent_code": "01"
+    },
+    "004": {
+        "name": "Tổ hợp xét tuyển khối D",
+     
+        "name_with_type": "Tổ hợp xét tuyển khối D",
+        "path_with_type": "Tổ hợp xét tuyển khối D,Nhóm các khối thi truyền thống",
+        "code": "004",
+        "parent_code": "01"
+    },
+    "005": {
+        "name": "Tổ hợp xét tuyển khối K",
+     
+        "name_with_type": "Tổ hợp xét tuyển khối K",
+        "path_with_type": "Tổ hợp xét tuyển khối K,Nhóm các khối thi truyền thống",
+        "code": "005",
+        "parent_code": "01"
+    },
+    "006": {
+        "name": "Tổ hợp xét tuyển khối H",
+     
+        "name_with_type": "Tổ hợp xét tuyển khối H",
+        "path_with_type": "Tổ hợp xét tuyển khối H,Nhóm các khối thi năng khiếu",
+        "code": "006",
+        "parent_code": "02"
+    },
+    "007": {
+        "name": "Tổ hợp xét tuyển khối V",
+     
+        "name_with_type": "Tổ hợp xét tuyển khối V",
+        "path_with_type": "Tổ hợp xét tuyển khối V,Nhóm các khối thi năng khiếu",
+        "code": "007",
+        "parent_code": "02"
+    },
+    "008": {
+        "name": "Tổ hợp xét tuyển khối M",
+     
+        "name_with_type": "Tổ hợp xét tuyển khối M",
+        "path_with_type": "Tổ hợp xét tuyển khối M,Nhóm các khối thi năng khiếu",
+        "code": "008",
+        "parent_code": "02"
+    },
+    "009": {
+        "name": "Tổ hợp xét tuyển khối N",
+     
+        "name_with_type": "Tổ hợp xét tuyển khối N",
+        "path_with_type": "Tổ hợp xét tuyển khối N,Nhóm các khối thi năng khiếu",
+        "code": "009",
+        "parent_code": "02"
+    },
+    "010": {
+        "name": "Tổ hợp xét tuyển khối R",
+     
+        "name_with_type": "Tổ hợp xét tuyển khối R",
+        "path_with_type": "Tổ hợp xét tuyển khối R,Nhóm các khối thi năng khiếu",
+        "code": "010",
+        "parent_code": "02"
+    },
+    "011": {
+        "name": "Tổ hợp xét tuyển khối S",
+     
+        "name_with_type": "Tổ hợp xét tuyển khối S",
+        "path_with_type": "Tổ hợp xét tuyển khối S,Nhóm các khối thi năng khiếu",
+        "code": "011",
+        "parent_code": "02"
+    },
+    "012": {
+        "name": "Tổ hợp xét tuyển khối T",
+     
+        "name_with_type": "Tổ hợp xét tuyển khối T",
+        "path_with_type": "Tổ hợp xét tuyển khối T,Nhóm các khối thi năng khiếu",
+        "code": "012",
+        "parent_code": "02"
+    }
+
+}

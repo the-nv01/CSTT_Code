@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../static/css/all.min.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/grid.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col col-2">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img width="19%" src="../static/img/logo-header.jpg" alt="">
+                        </a>
+                    </div>
+                    <!--End .header__logo-->
+                </div>
+                <div class="col col-8">
+                    <nav class="header__menu">
+                        <ul>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#" >Trường</a></li>
+                            <li><a href="#">Khối</a></li>
+                            <li><a href="#">Đề các năm</a></li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#"><img src="" /></a></li>
+                        </ul>
+                    </nav>
+                    <!--End .header__menu-->
+                </div>
+                <!-- <div class="col col-2">
+                    <div class="header__hotline">
+                        <div class="header__hotline--inner">
+                            <span>Hotline 24/7</span>
+                            <span>090.154.8866</span>
+                        </div>
+                    </div> -->
+                <!--End .header__hotline-->
+                <!-- </div> -->
+            </div>
+        </div>
+    </header>
+    <div class="block-icons">
+        <div class="box-icons ">
+        </div>
+    </div>
+
+    <form action="" id="form-1">
+        <div class="infor-user">
+            <div class="content-user">
+                <h2>Thông tin </h2>
+            </div>
+            <div class="container">
+                <div class="user  d-flex flex-column ">
+
+                    <div class="block-input mb-3 fullName-box">
+                        <div class="d-flex input-group  ">
+                            <label for="fullName">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-name"> Họ và tên:</span>
+                                </div>
+
+                            </label>
+                            <input type="text" class="form-control  fullName-input " name="fullName" id="fullName"
+                                placeholder="Nhập họ và tên...">
+                        </div>
+                        <span class="error-message "></span>
+                    </div>
+
+                    <div class="mb-3 date-box block-input">
+                        <div class="d-flex input-group">
+                            <label for="date">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-name"> Ngày sinh:</span>
+                                </div>
+
+                            </label>
+                            <input type="text" class="form-control date-input" name="date" id="date"
+                                placeholder="Nhập ngày sinh...">
+                        </div>
+                        <span class="error-message "></span>
+                    </div>
+
+                    <div class="gender-box ">
+
+                        <div class=" d-flex input-group">
+                            <div>
+                                <span class="input-group-name">Giới tính:</span>
+                            </div>
+                            <div class="gender-user d-flex">
+                                <input type="radio" name="gender" value="male" id="male">
+                                <label for="male" class="gender d-flex male input-group-text">Nam</label>
+
+                                <input type="radio" value="female" checked="checked" name="gender" id="female">
+                                <label for="female" class="gender d-flex female input-group-text">Nữ</label>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="location  ">
+                        <div class=" d-flex row-cols-4">
+                            <span class="input-group-name ">Địa chỉ:</span>
+                            <div class="location-box d-flex">
+                                <select class="form-select custom-select" name="" id="province">
+                                </select>
+                                <select class="form-select custom-select " name="" id="district">
+
+                                    <option value="0">Chọn Quận/Huyện</option>
+                                </select>
+                                <select class="form-select custom-select" name="" id="ward">
+
+                                    <option value="0">Chọn Xã/phường</option>
+                                </select>
+                            </div>
+                        </div>
+                        <span class=""></span>
+                    </div>
+
+                    <div class="block-input school-box">
+                        <div class="input-group mb-3">
+                            <label for="school">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-name"> Trường:</span>
+                                </div>
+
+                            </label>
+                            <input type="text" class="form-control school-input" name="school" id="school">
+                        </div>
+                        <span class="error-message"></span>
+                    </div>
+
+                    <div class="block-box block-input">
+                        <div class="block-subject d-flex input-group">
+                            <label for="subject">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-name"> Nhập khối:</span>
+                                </div>
+
+                            </label>
+                            <input type="text" class="form-control" id="subject" placeholder="Nhập khối ngành">
+                            <span class=""></span>
+                        </div>
+                    </div>
+
+                    <div class="point-test-box">
+                        <div class="point-test d-flex">
+                            <label for="point">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-name"> Điểm dự kiến:</span>
+                                </div>
+
+                            </label>
+                            <input class="form-control point-input " type="text" name="" id="point" value="0">
+
+
+                            <span class=""></span>
+                        </div>
+                        <div class="point-bonus d-flex ">
+
+                            <label for="bonus">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-name"> Điểm ưu tiên:</span>
+                                </div>
+
+                            </label>
+                            <input type="text" class="form-control point-bonus-input" value="0" id="bonus">
+
+
+
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+                    <div class="submit-box d-flex">
+                        <button type="submit" class="btn btn-success submit ">GỬi</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </form>
+
+    <script src="../static/js/index.js"></script>
+    <script src="../static/js/location.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/funtc.js"></script>
+
+</body>
+
+</html>

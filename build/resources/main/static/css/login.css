@@ -1,0 +1,127 @@
+
+.header {
+    position: relative;
+    padding: 27px 0;
+    background-color: #FE1415;
+}
+
+a {
+    text-decoration: none;
+    color: #f4f2ed;
+    font-size: 1.15rem;
+}
+
+
+.header .header__menu {
+    padding-top: 10px;
+}
+
+.header .header__menu ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header .header__menu ul li a {
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+.header .header__menu ul li:last-child {
+    margin-left: 15px;
+    position: relative;
+    top: -5px;
+}
+
+.header .header__logo {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+.login-box{
+    width: 50%;
+    margin: 50px auto;
+    border: 3px solid red;
+    border-radius: 15px;
+    box-shadow: 1px 1px rgb(0, 13, 255);
+}
+
+ .text-content-login{
+    margin: 30px auto;
+   
+    width: 35%;
+}
+.text-content-login h1{
+    text-align: center;
+    border: 2px solid brown;
+    box-sizing: border-box;
+    border-radius: 5px ;
+    background-color: rgba(193, 231, 234, 0.24);
+    padding: 5px;
+    /* text-transform:  */
+    font-weight: bold;
+    font-size: 3rem;
+    color: #7d25d67c;
+    text-shadow: 0 0 3px #075681, 0 0 5px #b33c3c, 0 0 5px #86b46fb8;
+}
+ .loginInput{
+    display: block;
+    margin: 0px auto;
+    width: 55%;
+}
+.login-group{
+    margin-bottom: 10px;
+}
+.login-group label{
+    border: 2px solid red;
+    width: 45%;
+    padding: 5px;
+    font-size: 1.25rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgba(161, 231, 207, 0.233);
+    
+    box-shadow: 1px 1px rgb(197, 28, 28);
+}
+.login-group label:hover{
+    background-color: rgba(148, 181, 96, 0.142);
+    box-shadow: 0px 0px rgb(195, 36, 36);
+}
+.login-group .input-group-login{
+    padding: 5px; 
+    font-size: 1.25rem;
+    border: 2px solid red;
+    border-bottom-right-radius: 5px  ;
+    border-top-right-radius: 5px;
+    margin-left:0px ;
+    width: 100%;
+    text-transform:initial;
+    padding-left: 10px;
+    background-color: rgba(166, 223, 223, 0.396);
+    box-shadow: 0px 0px rgb(195, 36, 36);
+}
+.login-group .input-group-login:hover{
+    background-color: rgba(23, 176, 176, 0.116);
+    box-shadow: 1px 1px rgb(197, 28, 28);
+}
+.submit-login {
+    /* display: block; */
+    margin: 10px auto;
+    width: 19%;
+    
+}
+.submit-login .btn{
+    background-color: rgba(37, 85, 158, 0.479);
+    box-shadow: 1px 1px rgb(210, 90, 90);
+}
+
+.submit-login .btn:hover{
+    background-color: rgba(63, 114, 192, 0.166);
+    box-shadow: 1.5px 1.5px rgb(195, 36, 36);
+}

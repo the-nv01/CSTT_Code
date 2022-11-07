@@ -1,0 +1,346 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    font-size: 1rem;
+    font-family: Lato, san-serif;
+    line-height: 1.2;
+    color: #f4e3e3;
+    background-color: rgb(255, 255, 255);
+}
+
+input {
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #f4f2ed;
+    font-size: 1.15rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    color: #d3a313;
+
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+
+
+.header {
+    position: relative;
+    padding: 27px 0;
+    background-color: #FE1415;
+}
+
+
+
+.header .header__menu {
+    padding-top: 10px;
+}
+
+.header .header__menu ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header .header__menu ul li a {
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+.header .header__menu ul li:last-child {
+    margin-left: 15px;
+    position: relative;
+    top: -5px;
+}
+
+.header .header__logo {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+
+/* /// */
+.block-icons {
+    width: 15%;
+    height: 500px;
+    float: left;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
+
+.box-icons svg {
+    display: block;
+    width: 100%;
+    height: 350px;
+}
+
+.infor-user {
+    display: block;
+    width: 70%;
+    /* border: 1px solid red; */
+    float: left;
+}
+
+/* .header .header__hotline {
+    display: flex;
+} */
+
+/* .header .header__hotline::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url("../images/phone-icon.png") no-repeat;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.header .header__hotline span {
+    display: block;
+}
+
+.header .header__hotline span:first-child {
+    font-size: 0.93rem;
+    color: #767676;
+    text-transform: uppercase;
+}
+
+.header .header__hotline span:last-child {
+    color: #898f4b;
+    font-size: 1.43rem;
+    font-weight: bold;
+} */
+.user .fullName-box,
+.user .date-box,
+.user .school-box,
+.user .block-box
+ {
+    width: 55%;
+
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 15px;
+
+}
+.gender-box .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){
+    padding-left: 0;
+}
+
+/* name-input  */
+
+.input-group-name {
+    border: 1px solid rgb(181, 99, 99);
+    background-color: rgba(168, 72, 72, 0.278);
+    ;
+    border-radius: .375rem;
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    align-items: center;
+    white-space: nowrap;
+    color: #212529;
+    display: flex;
+    justify-content: center;
+    width: 130px;
+}
+
+/* Location */
+.content-user {
+    display: flex;
+    border: 5px solid #fe141433;
+    width: 30%;
+    margin: 30px auto;
+    border-radius: 70px;
+    background-color: #ffffff;
+
+}
+
+.content-user h2 {
+    font-size: 3.5rem;
+    display: inline-block;
+    color: #FE1415;
+    margin: 10px auto;
+    border-bottom: 2.5px solid #FE1415;
+    box-sizing: border-box;
+    padding-bottom: 2px;
+
+}
+
+
+.infor-user .container {
+    border: 3px solid gray;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: transparent;
+    height: auto;
+    width: 85%;
+}
+
+.user .location {
+    margin-bottom: 15px;
+}
+
+.user .location-box {
+
+    width: 85%;
+}
+
+
+.location .location-box #province,
+.location .location-box #district,
+.location .location-box #ward {
+    width: 100%;
+    margin-left: 10px;
+}
+
+/* //////////////////////////gender//////////////////////    */
+.user .gender-box,
+.user .block-box,
+.user .point-test-box .point-test,
+.user .point-test-box .point-bonus {
+    margin-bottom: 15px;
+ 
+}
+
+.user .gender {
+    margin-right: 10px;
+
+}
+
+.gender-box .gender {
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.user .gender-user input[type="radio"] {
+    display: none;
+
+}
+
+.user input[type="radio"]:checked+label {
+    background-color: rgba(193, 151, 100, 0.266);
+    color: #212529;
+}
+
+/*Subject-Block*/
+
+
+
+
+
+
+/*Point */
+.point-test,.user .point-bonus {
+    width: 75%;
+}
+.user .point-bonus input[type="text"]{
+    width: 24%;
+    padding-left: 15px;
+}
+.user .point-test-box input[type="text"] {
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+
+
+.user .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    margin: 0 auto;
+    text-transform:uppercase ;
+}
+.block-input{
+    position: relative;
+}
+.input-group-name-error{
+    color:rgb(119, 4, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    background-color: rgba(229, 176, 176, 0.429);
+    border-radius: 5px;
+    padding: 10px;
+    width: 55%;
+   
+    
+    position: absolute;
+    top:0;
+    right: -70%;
+
+}
+.input-group-name-error::after  {
+    content: '  !!!';
+
+}
+
+
+/* /// */
+.box-icons{
+    /* border: 1px solid red; */
+    position: relative;
+}
+svg{
+  border-radius: 30px;
+
+    box-sizing: border-box;
+  animation-name: example;
+  animation-duration:10s ;
+  padding:5px;
+  color: #bd1111;
+}
+@keyframes example {
+    0%   {background-color: rgb(249, 247, 247);}
+  25%  {background-color: rgb(239, 149, 149);}
+  50%  {background-color: rgba(123, 123, 220, 0.722);}
+  100% {background-color: rgb(201, 167, 167);}
+  }
+.svg-message{
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    animation-name: example;
+    animation-duration:10s ;
+    border-radius:9px;
+    top:0;
+    left: 110%;
+}
+.hide{
+    display: none;
+}

@@ -1,0 +1,12 @@
+{
+    "01": {
+        "name": "Nhóm các khối thi truyền thống",    
+        "name_with_type": "Thành phố Hà Nội",
+        "code": "01"
+    },
+    "02": {
+        "name": "Nhóm các khối thi năng khiếu",
+        "name_with_type": "Tỉnh Hà Giang",
+        "code": "02"
+    }
+}
